@@ -113,11 +113,13 @@ namespace Bittrex.Net.Objects
         /// <summary>
         /// The condition of the order
         /// </summary>
+        /*
         [JsonProperty("J"), JsonConverter(typeof(ConditionTypeConverter))]
         public ConditionType Condition { get; set; }
         /// <summary>
         /// The condition target of the order
         /// </summary>
+        */
         [JsonProperty("j")]
         public decimal? ConditionTarget { get; set; }
         /// <summary>
